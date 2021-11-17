@@ -14,5 +14,6 @@ public:
 	TaskQueue();
 	void Enqueue(SortTask* task);
 	SortTask* Dequeue();
+	bool Empty();
 	~TaskQueue();
 };
